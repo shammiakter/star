@@ -1,0 +1,17 @@
+//Triangle - Left Justified
+#include<stdio.h>
+int main()
+{
+    int a,i,b,x;
+    printf("Enter number of line: ");
+    scanf("%d",&b);
+    for(i=1;i<=b;i++)
+    {
+        for(x=1;x<=i;x++)
+        {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+}
