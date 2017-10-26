@@ -1,0 +1,19 @@
+//Rectangle using solution of PROBLEM
+#include<stdio.h>
+int main()
+{
+    int a,i,b,x;
+    printf("Enter number of line: ");
+    scanf("%d",&b);
+    printf("enter number: ");
+    scanf("%d",&a);
+    for(i=1;i<=b;i++)
+    {
+        for(x=1;x<=a;x++)
+        {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+}
