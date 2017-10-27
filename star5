@@ -1,0 +1,21 @@
+//Triangle - Isosceles
+#include<stdio.h>
+int main()
+{
+    int i,b,x;
+    printf("Enter number of line: ");
+    scanf("%d",&b);
+    for(i=1;i<=b;i++)
+    {
+        for(x=i;x<b;x++)
+        {
+            printf(" ");
+        }
+        for(x=1;x<=(2*i-1);x++)
+        {
+            printf("*");
+        }
+        printf("\n");
+
+    }
+}
